@@ -26,7 +26,7 @@ int main(){
 		
 	}
 	for(int ii=1;ii<=9;ii++){
-		if(ii==7&&ii==8&&ii==9){
+		if(ii==7)||(ii==8)||(ii==9){
 			for(int p1=1;p1<=8;p1++)
 			cout<<"*"<<" ";
 		}else
